@@ -18,8 +18,7 @@
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
-    <OverrideVtorValue>
-    </OverrideVtorValue>
+    <OverrideVtorValue>exception_table</OverrideVtorValue>
     <eraseonlaunchrule>0</eraseonlaunchrule>
     <ProgFlashFromRam>true</ProgFlashFromRam>
     <RamSnippetAddress>0x20000000</RamSnippetAddress>
@@ -28,15 +27,15 @@
     <BootSegment>0</BootSegment>
     <AsfFrameworkConfig>
       <framework-data>
-  <options />
-  <configurations />
-  <files />
-  <documentation help="" />
-  <offline-documentation help="" />
-  <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.6.0" />
-  </dependencies>
-</framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.6.0" />
+        </dependencies>
+      </framework-data>
     </AsfFrameworkConfig>
     <preserveEEPROM>true</preserveEEPROM>
   </PropertyGroup>
@@ -52,7 +51,7 @@
   <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
   <avrgcc.compiler.symbols.DefSymbols>
     <ListValues>
-      <Value>ARDUINO=165</Value>
+      <Value>ARDUINO=164</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=84000000L</Value>
       <Value>printf=iprintf</Value>
@@ -68,24 +67,24 @@
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value></Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/</Value>
-      <Value>C:/Users/install/ownCloud/Eigenes/Arduino/libraries</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam</Value>
+      <Value>O:/Eigene Dokumente/Windlabor/Eigenes/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/libraries</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries</Value>
+      <Value>O:/Downloads/arduino-1.6.4/libraries</Value>
       <Value>../../DueWindLabShield</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -97,7 +96,7 @@
   <avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>
   <avrgcccpp.compiler.symbols.DefSymbols>
     <ListValues>
-      <Value>ARDUINO=165</Value>
+      <Value>ARDUINO=164</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=84000000L</Value>
       <Value>printf=iprintf</Value>
@@ -113,24 +112,24 @@
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
       <Value></Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/</Value>
-      <Value>C:/Users/install/ownCloud/Eigenes/Arduino/libraries</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam</Value>
+      <Value>O:/Eigene Dokumente/Windlabor/Eigenes/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/libraries</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries</Value>
+      <Value>O:/Downloads/arduino-1.6.4/libraries</Value>
       <Value>../../DueWindLabShield</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.level>Optimize (-O1)</avrgcccpp.compiler.optimization.level>
@@ -141,10 +140,11 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x;../../DueWindLabShield;C:/Users/install/Downloads/arduino-1.6.5-r2/libraries;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/install/ownCloud/Eigenes/Arduino/libraries;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/;;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x;../../DueWindLabShield;C:/Users/install/Downloads/arduino-1.6.5-r2/libraries;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/install/ownCloud/Eigenes/Arduino/libraries;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/;;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x;O:/Downloads/arduino-1.6.4/libraries;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries;O:/Eigene Dokumente/Windlabor/Eigenes/Arduino/libraries;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include;O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include;O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/;O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include;O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
-      <VisualMicroSettings xmlns="">
-        <arduino.upload.port>COM28</arduino.upload.port>
+      <VisualMicroSettings>
+        <arduino.upload.port>COM30</arduino.upload.port>
+        <VM.DebugVariablesWindow.ColumnVisibleFunctionName>1</VM.DebugVariablesWindow.ColumnVisibleFunctionName>
       </VisualMicroSettings>
     </VisualMicroSettings>
   </PropertyGroup>
@@ -160,7 +160,7 @@
   <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
   <avrgcc.compiler.symbols.DefSymbols>
     <ListValues>
-      <Value>ARDUINO=165</Value>
+      <Value>ARDUINO=164</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=84000000L</Value>
       <Value>printf=iprintf</Value>
@@ -176,24 +176,24 @@
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value></Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/</Value>
-      <Value>C:/Users/install/ownCloud/Eigenes/Arduino/libraries</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam</Value>
+      <Value>O:/Eigene Dokumente/Windlabor/Eigenes/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/libraries</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries</Value>
+      <Value>O:/Downloads/arduino-1.6.4/libraries</Value>
       <Value>../../DueWindLabShield</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -205,7 +205,7 @@
   <avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>
   <avrgcccpp.compiler.symbols.DefSymbols>
     <ListValues>
-      <Value>ARDUINO=165</Value>
+      <Value>ARDUINO=164</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=84000000L</Value>
       <Value>printf=iprintf</Value>
@@ -221,24 +221,24 @@
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
       <Value></Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/</Value>
-      <Value>C:/Users/install/ownCloud/Eigenes/Arduino/libraries</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/</Value>
+      <Value>O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam</Value>
+      <Value>O:/Eigene Dokumente/Windlabor/Eigenes/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries</Value>
-      <Value>C:/Users/install/Downloads/arduino-1.6.5-r2/libraries</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries</Value>
+      <Value>O:/Downloads/arduino-1.6.4/libraries</Value>
       <Value>../../DueWindLabShield</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x</Value>
-      <Value>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x</Value>
+      <Value>C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.level>Optimize (-O1)</avrgcccpp.compiler.optimization.level>
@@ -249,10 +249,11 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x;../../DueWindLabShield;C:/Users/install/Downloads/arduino-1.6.5-r2/libraries;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/install/ownCloud/Eigenes/Arduino/libraries;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/;;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x;../../DueWindLabShield;C:/Users/install/Downloads/arduino-1.6.5-r2/libraries;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/install/ownCloud/Eigenes/Arduino/libraries;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include;C:/Users/install/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include;C:/Users/install/Downloads/arduino-1.6.5-r2/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/;;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/cores/arduino;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x;O:/Downloads/arduino-1.6.4/libraries;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/libraries;O:/Eigene Dokumente/Windlabor/Eigenes/Arduino/libraries;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/CMSIS/Include/;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/CMSIS/Device/ATMEL/;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/arm-none-eabi/;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include;C:/Users/mw7/AppData/Roaming/arduino15/packages/arduino/hardware/sam/1.6.4/system/libsam/include;O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/arm-none-eabi/include;O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/arm_none_eabi/include/;O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include;O:/Downloads/arduino-1.6.4/hardware/tools/g++_arm_none_eabi/lib/gcc/arm-none-eabi/4.4.1/include/;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
-      <VisualMicroSettings xmlns="">
-        <arduino.upload.port>COM28</arduino.upload.port>
+      <VisualMicroSettings>
+        <arduino.upload.port>COM30</arduino.upload.port>
+        <VM.DebugVariablesWindow.ColumnVisibleFunctionName>1</VM.DebugVariablesWindow.ColumnVisibleFunctionName>
       </VisualMicroSettings>
     </VisualMicroSettings>
   </PropertyGroup>

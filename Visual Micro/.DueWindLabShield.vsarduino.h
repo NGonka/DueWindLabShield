@@ -8,14 +8,14 @@
 	Hardware: Arduino Due (Programming Port), Platform=sam, Package=arduino
 */
 
-#define ARDUINO 165
+#define ARDUINO 164
 #define ARDUINO_MAIN
 #define F_CPU 84000000L
 #define printf iprintf
 #define __SAM__
 #define printf iprintf
 #define F_CPU 84000000L
-#define ARDUINO 165
+#define ARDUINO 164
 #define ARDUINO_SAM_DUE
 #define ARDUINO_ARCH_SAM
 #define __SAM3X8E__
@@ -24,13 +24,19 @@
 #define USBCON
 extern "C" void __cxa_pure_virtual() {;}
 
+int readVcc();
+int readVoltage(int Vcc);
+int readCurrent(int Vcc);
 String constTimeStringLengthOf10(unsigned long timestamp);
+String constRPMStringLengthOf8(long value);
+String constVoltStringLengthOf5(long value);
+String constCurrStringLengthOf4(long value);
 //
 //
 
-#include "C:\Users\install\AppData\Roaming\arduino15\packages\arduino\hardware\sam\1.6.4\variants\arduino_due_x\pins_arduino.h" 
-#include "C:\Users\install\AppData\Roaming\arduino15\packages\arduino\hardware\sam\1.6.4\variants\arduino_due_x\variant.h" 
-#include "C:\Users\install\AppData\Roaming\arduino15\packages\arduino\hardware\sam\1.6.4\cores\arduino\arduino.h"
+#include "C:\Users\mw7\AppData\Roaming\arduino15\packages\arduino\hardware\sam\1.6.4\variants\arduino_due_x\pins_arduino.h" 
+#include "C:\Users\mw7\AppData\Roaming\arduino15\packages\arduino\hardware\sam\1.6.4\variants\arduino_due_x\variant.h" 
+#include "C:\Users\mw7\AppData\Roaming\arduino15\packages\arduino\hardware\sam\1.6.4\cores\arduino\arduino.h"
 #include <DueWindLabShield.ino>
 #include <speed_enc.cpp>
 #include <speed_enc.h>
